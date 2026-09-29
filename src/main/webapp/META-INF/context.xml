@@ -7,7 +7,7 @@
               maxIdle="5"
               maxWaitMillis="10000"
               username="neondb_owner"
-              password="postgresql://neondb_owner:npg_XZgsMS0WfF1C@ep-gentle-fog-b5um034k-pooler.c-7.us-east-2.aws.neon.tech/neondb?sslmode=require&amp;channel_binding=require"
+              password="npg_XZgsMS0WfF1C"
               driverClassName="org.postgresql.Driver"
               url="jdbc:postgresql://ep-gentle-fog-b5um034k-pooler.c-7.us-east-2.aws.neon.tech:5432/neondb?sslmode=require"/>
 </Context>

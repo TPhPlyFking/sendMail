@@ -40,7 +40,9 @@ public class ConnectionPool {
     // Phương thức trả Connection về lại hồ chứa
     public void freeConnection(Connection c) {
         try {
-            c.close();
+            if (c != null) {
+                c.close();
+            }
         } catch (SQLException e) {
             System.out.println(e);
         }
